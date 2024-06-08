@@ -90,7 +90,7 @@ L["config_fmaster_waypoint"] = "Flightmaster Waypoint"
 L["config_fmaster_waypoint_desc"] = "Sets automatically a waypoint to the flightmaster if you enter the Ring of Transference."
 
 L["config_easy_waypoints"] = "Easy Waypoints"
-L["config_easy_waypoints_desc"] = "Activates simplified waypoint creation. \nAllows you to set a waypoint by right-clicking and access to more options by CTRL + right-clicking."
+L["config_easy_waypoints_desc"] = "Activates simplified waypoint creation.\nAllows you to set a waypoint by right-clicking and access to more options by CTRL + right-clicking."
 
 L["config_waypoint_dropdown"] = "Choose"
 L["config_waypoint_dropdown_desc"] = "Choose how the waypoint should be created."
@@ -146,10 +146,6 @@ L["Crafting Orders"] = true
 L["Mailbox"] = true
 L["Portal to Orgrimmar"] = true
 L["Portal to Stormwind"] = true
-L["Rostrum of Transformation"] = true
-L["Teleport to Seat of the Aspects"] = true
-L["Visage of True Self"] = true
-L["Portal to Badlands"] = true
-L["Portal to Central Encampment"] = true
 L["Portal to The Timeways"] = true
+L["Rostrum of Transformation"] = true
 end

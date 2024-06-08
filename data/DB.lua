@@ -2,8 +2,8 @@
 ------------------------------------------AddOn NAMESPACE-------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
-local FOLDER_NAME, private = ...
-local L = private.locale
+local _, ns = ...
+local L = ns.locale
 
 ----------------------------------------------------------------------------------------------------
 -----------------------------------------------LOCALS-----------------------------------------------
@@ -27,9 +27,9 @@ local EmeraldDream = GetMapNames(2200)
 ----------------------------------------------------------------------------------------------------
 
 local DB = {}
-private.DB = DB
+ns.DB = DB
 
-DB.points = {
+DB.nodes = {
     [2339] = { -- Dornogal
 
         [55497721] = { icon = "vendor", npc = 219215 }, -- Hotharn
@@ -45,7 +45,7 @@ DB.points = {
         [56924692] = { icon = "auctioneer", npc = 219037, sublabel = '' }, -- Auctioneer Durzin
         [57074719] = { icon = "auctioneer", npc = 219039, sublabel = '' }, -- Auctioneer Zyrgas
 
-        [51174334] = { icon="portal", label=L["Portal to The Timeways"], level=80 },
+        [51174334] = { icon = "portal", label = L["Portal to The Timeways"], level = 80 },
 
         -- Contender's Gate
         [59826931] = { icon = "vendor", npc = 219216 }, -- Rogurn
@@ -66,7 +66,6 @@ DB.points = {
 
         [58275374] = { icon = "anvil", npc = 219321 }, -- Grotir
         [58265327] = { icon = "vendor", npc = 219319 }, -- Yorda
-
 
         [45756871] = { icon = "mail", label = L["Mailbox"] },
 
@@ -165,66 +164,7 @@ DB.points = {
         [49305561] = { icon = "vendor", npc = 219098, profession = 202, picon = "engineering" }, -- Supply Foreman Drezmol
 
         -- Mining
-        [52625254] = { icon = "trainer", npc = 219097, profession = 186, picon = "mining" }, -- Tarib
-
-
-        -- [28796431] = { icon="bubble", npc=194480 }, -- Nomi
-        -- [28826631] = { icon = "vendor", npc = 196975 }, -- Zinfandormu
-        -- [29006488] = { icon = "vendor", npc = 196729 }, -- Gorgonzormu
-        -- [29886737] = { icon = "vendor", npc = 195788 }, -- Nallu
-        -- [31286972] = { icon = "vendor", npc = 195783 }, -- Clerk Nemora
-        -- [31626932] = { icon = "vendor", npc = 195782 }, -- Giera
-        -- [34536254] = { icon = "craftingorders", label = L["Crafting Orders"] }, -- CRAFTING ORDERS
-        -- [35425910] = { icon = "vendor", npc = 194057 }, -- Rabul
-        -- [35455968] = { icon = "mail", label = L["Mailbox"] },
-        -- [36436280] = { icon = "vendor", npc = 191000 }, -- Dothenos
-
-
-        -- -- The Bronze Enclave
-        -- -- [84075357] = { icon="bubble", label=""Engine of Innovation", quest=70180 },
-        -- [77543867] = { icon = "vendor", npc = 203019 }, -- Heredormu
-
-
-        -- -- The Emerals Encalve
-        -- [74506309] = { icon = "vendor", npc = 189197 }, -- Groundskeeper Kama
-
-
-        -- -- The Obsidian Enclave
-        -- [35954970] = { icon = "vendor", npc = 195770, sublabel = '' }, -- Armorsmith Terisk
-        -- [36165194] = { icon = "vendor", npc = 195769, sublabel = '' }, -- Weaponsmith Koref
-        -- [37995078] = { icon = "mail", label = L["Mailbox"] },
-
-
-        -- -- The Patting Glass
-        -- [72504716] = { icon = "innkeeper", npc = 197574 }, -- Mairadormi
-
-
-        -- -- The Roasted Ram
-        -- [46934566] = { icon = "vendor", npc = 188747 }, -- Kitror
-        -- [47444620] = { icon = "innkeeper", npc = 185562 }, -- Tithris
-        -- -- Cooking, profession=185
-        -- [46464620] = { icon = "trainer", npc = 185556, picon = "cooking" }, -- Erugosa
-
-
-        -- -- The Ruby Enclave
-        -- [60731615] = { icon = "vendor", npc = 189041 }, -- Coulisa
-        -- [57482359] = { icon = "vendor", npc = 198441 }, -- Gardener Cereus
-        -- -- Alchemy
-        -- [58841839] = { icon = "vendor", npc = 198438, profession = 171, picon = "alchemy" }, -- Gerdener Rafalsia WALKS AROUND
-
-
-        -- -- The Sapphire Enclave
-        -- [38093772] = { icon = "vendor", npc = 196516 }, -- Mythressa
-        -- [38443674] = { icon = "vendor", npc = 196598 }, -- Rethelshi
-        -- [38663712] = { icon = "reforge", npc = 203391 }, -- Erza
-
-        -- -- The Victorious Visage
-        -- [30334817] = { icon = "barber", label = L["Visage of True Self"] },
-
-
-        -- -- Weyrnrest
-        -- [22623065] = { icon = "innkeeper", npc = 196640 }, -- Yzinia INNKEEPER BUGGY
-
+        [52625254] = { icon = "trainer", npc = 219097, profession = 186, picon = "mining" } -- Tarib
     }
 
 } -- DB ENDE

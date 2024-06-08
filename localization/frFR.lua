@@ -147,9 +147,5 @@ L["Mailbox"] = "Boite aux lettres"
 L["Portal to Orgrimmar"] = "Portail vers Orgrimmar"
 L["Portal to Stormwind"] = "Portail vers Hurlevent"
 L["Rostrum of Transformation"] = "Tribune de transformation"
-L["Teleport to Seat of the Aspects"] = "Téléportation au siège des Aspects"
-L["Visage of True Self"] = true
-L["Portal to Badlands"] = "Portail vers les terres Ingrates"
-L["Portal to Central Encampment"] = "Portail vers le campement Central"
 L["Portal to The Timeways"] = "Portail vers les voies temporelles"
 end

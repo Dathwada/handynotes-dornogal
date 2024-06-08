@@ -81,12 +81,9 @@ L["handler_tooltip_quest"] = "Desbloqueado com uma missão"
 L["handler_tooltip_requires"] = "Requer"
 L["handler_tooltip_requires_level"] = "Requer pelo menos level"
 L["Mailbox"] = "Caixa de correio"
-L["Portal to Badlands"] = "Portal para os Ermos"
-L["Portal to Central Encampment"] = "Portal para o Acampamento Central"
 L["Portal to Orgrimmar"] = "Portal para Orgrimmar"
 L["Portal to Stormwind"] = "Portal para Ventobravo"
 L["Portal to The Timeways"] = "Portal para os Percursos Temporais"
 L["Rostrum of Transformation"] = "Tribuna de Transformação"
-L["Teleport to Seat of the Aspects"] = "Teleportar para Trono dos Aspectos"
 L["TomTom"] = true
 end
