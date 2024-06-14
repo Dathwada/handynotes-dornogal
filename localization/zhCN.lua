@@ -151,4 +151,5 @@ L["Portal to Orgrimmar"] = "通往奥格瑞玛"
 L["Portal to Stormwind"] = "通往暴风城"
 L["Portal to The Timeways"] = "通往时间流的传送门"
 L["Rostrum of Transformation"] = "幻形讲坛"
+L["The Catalyst"] = "化生台"
 end
