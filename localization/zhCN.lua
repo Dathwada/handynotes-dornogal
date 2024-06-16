@@ -129,7 +129,7 @@ L["dev_config_show_prints_desc"] = "在聊天窗口中显示标记()的信息"
 
 --==========================================CONTEXT_MENU==========================================--
 
-L["handler_context_menu_addon_name"] = "HandyNotes:多恩诺嘉尔"
+L["handler_context_menu_addon_name"] = "HandyNotes：多恩诺嘉尔"
 L["handler_context_menu_add_tomtom"] = "添加到 TomTom"
 L["handler_context_menu_add_map_pin"] = "设置地图航点"
 L["handler_context_menu_hide_node"] = "隐藏这个图标"
