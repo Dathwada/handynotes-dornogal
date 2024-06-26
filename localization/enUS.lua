@@ -148,4 +148,5 @@ L["Portal to Orgrimmar"] = true
 L["Portal to Stormwind"] = true
 L["Portal to The Timeways"] = true
 L["Rostrum of Transformation"] = true
+L["The Catalyst"] = true
 end
