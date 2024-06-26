@@ -32,139 +32,176 @@ ns.DB = DB
 DB.nodes = {
     [2339] = { -- Dornogal
 
-        [55497721] = { icon = "vendor", npc = 219215 }, -- Hotharn
-        [55237685] = { icon = "vendor", npc = 219213 }, -- Gilderann
-        [54997647] = { icon = "vendor", npc = 219217 }, -- Velerd
-        [55077619] = { icon = "vendor", npc = 219222 }, -- Lalandi
+        [44405469] = { icon = "innkeeper", npc = 212370 }, -- Ronesh
 
-        [55665007] = { icon = "mail", label = L["Mailbox"] },
-        [51724595] = { icon = "mail", label = L["Mailbox"] },
-        [37644088] = { icon = "mail", label = L["Mailbox"] },
+        [44866121] = { icon = "transmogrifier", npc = 221848 }, -- Warpweaver Voxin
 
-        [56724666] = { icon = "auctioneer", npc = 219040, sublabel = '' }, -- Auctioneer Prana
-        [56924692] = { icon = "auctioneer", npc = 219037, sublabel = '' }, -- Auctioneer Durzin
-        [57074719] = { icon = "auctioneer", npc = 219039, sublabel = '' }, -- Auctioneer Zyrgas
+        [56538941] = { icon = "vendor", npc = 219215 }, -- Hotharn
+        [56238899] = { icon = "vendor", npc = 219213 }, -- Gilderann
+        [55988856] = { icon = "vendor", npc = 219217 }, -- Velerd
+        [56058827] = { icon = "vendor", npc = 219222 }, -- Lalandi
 
-        [51174334] = { icon = "portal", label = L["Portal to The Timeways"], level = 80 },
+        -- [55665007] = { icon = "mail", label = L["Mailbox"] },
+        [52275417] = { icon = "mail", label = L["Mailbox"] },
+        [36404844] = { icon = "mail", label = L["Mailbox"] },
+        [45095669] = { icon = "mail", label = L["Mailbox"] },
+        [56745881] = { icon = "mail", label = L["Mailbox"] },
+
+        [57935496] = { icon = "auctioneer", npc = 219040, sublabel = '' }, -- Auctioneer Prana
+        [58135526] = { icon = "auctioneer", npc = 219037, sublabel = '' }, -- Auctioneer Durzin
+        [58315554] = { icon = "auctioneer", npc = 219039, sublabel = '' }, -- Auctioneer Zyrgas
+
+        [51655121] = { icon = "portal", label = L["Portal to The Timeways"], level = 80 },
 
         -- Contender's Gate
-        [59826931] = { icon = "vendor", npc = 219216 }, -- Rogurn
-        [59986972] = { icon = "reforge", npc = 219073 }, -- Ledonir
-        [60257001] = { icon = "vendor", npc = 219212 }, -- Maara
+        [61408050] = { icon = "vendor", npc = 219216 }, -- Rogurn
+        [61588097] = { icon = "reforge", npc = 219073 }, -- Ledonir
+        [61898128] = { icon = "vendor", npc = 219212 }, -- Maara
 
         -- The Forgegrounds
-        [55376711] = { icon = "stablemaster", npc = 219376 }, -- Kargand
+        [56377802] = { icon = "stablemaster", npc = 219376 }, -- Kargand
 
-        [58506485] = { icon = "vendor", npc = 219230 }, -- Erani
-        [58396470] = { icon = "vendor", npc = 226756 }, -- Giada Goldleash / SUBLABEL???
+        [59927546] = { icon = "vendor", npc = 219230 }, -- Erani
+        [59827534] = { icon = "vendor", npc = 226756 }, -- Giada Goldleash / SUBLABEL???
 
-        [57256084] = { icon = "vendor", npc = 224294 }, -- Osidion
+        [58537096] = { icon = "vendor", npc = 224294 }, -- Osidion
+        [58527064] = { icon = "vendor", npc = 219318 }, -- Jorid
 
-        [58055645] = { icon = "craftingorders", npc = 215258 }, -- Gretal
+        [60277063] = { icon = "vendor", npc = 219324 }, -- Gerred
+        [59177055] = { icon = "vendor", npc = 219379 }, -- Morek
 
-        [58095520] = { icon = "bubble", npc = 219223 }, -- Mahra Treebender
+        [59416600] = { icon = "craftingorders", npc = 215258 }, -- Clerk Gretal
 
-        [58275374] = { icon = "anvil", npc = 219321 }, -- Grotir
-        [58265327] = { icon = "vendor", npc = 219319 }, -- Yorda
+        [59476458] = { icon = "bubble", npc = 219223 }, -- Mahra Treebender
+        [59496503] = { icon = "mail", label = L["Mailbox"] },
 
-        [45756871] = { icon = "mail", label = L["Mailbox"] },
+        [59686294] = { icon = "anvil", npc = 219321 }, -- Grotir
+        [59656241] = { icon = "vendor", npc = 219319 }, -- Yorda
 
-        [47986785] = { icon = "rostrum", label = L["Rostrum of Transformation"] },
+        [45557983] = { icon = "mail", label = L["Mailbox"] },
 
-        [50226764] = { icon = "anvil", npc = 219273 }, -- Breek
+        [48057888] = { icon = "rostrum", label = L["Rostrum of Transformation"] },
 
-        [50015427] = { icon = "catalyst", label = L["The Catalyst"] }, -- The Catalyst
+        [54897587] = { icon = "vendor", npc = 219280 }, -- Durakh
+        [52297867] = { icon = "vendor", npc = 219274 }, -- Brakh
+        [50597863] = { icon = "anvil", npc = 219273 }, -- Breek
+        [47267544] = { icon = "vendor", npc = 219255 }, -- Karbath
 
-        [54046520] = { icon = "vendor", npc = 219280 }, -- Durakh
+        [50346357] = { icon = "catalyst", label = L["The Catalyst"] }, -- The Catalyst
+
+        [46007484] = { icon = "vendor", npc = 219247 }, -- Unak
+
+        [52137978] = { icon = "vendor", npc = 219385 }, -- Nerada
+
+        [57276737] = { icon = "vendor", npc = 219076 }, -- Kornd
+        [58726788] = { icon = "vendor", npc = 219317 }, -- Kornak
 
         -- Lapidarium
-        [58595264] = { icon = "barber", npc = 219052 }, -- Wireweaver Grelka
+        [60046170] = { icon = "barber", npc = 219052 }, -- Wireweaver Grelka
 
         -- Lapidarium
-        [58064879] = { icon = "transmogrifier", npc = 219053 }, -- Warpweaver Dezeeran
-        [57704746] = { icon = "void", npc = 219054 }, -- Vaultkeeper Xir
+        [59425735] = { icon = "transmogrifier", npc = 219053 }, -- Warpweaver Dezeeran
+        [59015589] = { icon = "void", npc = 219054 }, -- Vaultkeeper Xir
 
         -- The Fissure
-        [62565094] = { icon = "vendor", npc = 219197 }, -- Griftah
-        [63624968] = { icon = "mail", label = L["Mailbox"] },
+        [64515977] = { icon = "vendor", npc = 219197 }, -- Griftah
+        [64806026] = { icon = "vendor", npc = 219065 }, -- Grundaz
+        [65715831] = { icon = "mail", label = L["Mailbox"] },
+
+        -- The Knifeblock
+        [66895823] = { icon = "vendor", npc = 219311 }, -- Kordan
 
         -- Madam Goya's Curiosities
-        [64805264] = { icon = "auctioneer", npc = 219055 }, -- Madam Goya
+        [67036172] = { icon = "auctioneer", npc = 219055 }, -- Madam Goya
 
         -- Council's Treasury
-        [52974369] = { icon = "banker", npc = 219029 }, -- Counter Bardra
-        [53654471] = { icon = "banker", npc = 219023 }, -- Counter Targrin
-        [54794250] = { icon = "vendor", npc = 219036 }, -- Ardgaz
-        [53954186] = { icon = "guildvault", label = L["config_guildvault"] },
-        [54894326] = { icon = "guildvault", label = L["config_guildvault"] },
+        [53695161] = { icon = "banker", npc = 219029 }, -- Counter Bardra
+        [54455275] = { icon = "banker", npc = 219023 }, -- Counter Targrin
+        [55725028] = { icon = "vendor", npc = 219036 }, -- Ardgaz
+        [54804955] = { icon = "guildvault", label = L["config_guildvault"] },
+        [55865111] = { icon = "guildvault", label = L["config_guildvault"] },
+
+        -- Crafter's Enclave
+        [61406596] = { icon = "vendor", npc = 219051 }, -- Lyrendal
+        [61286505] = { icon = "craftingorders", npc = 219043 }, -- Clerk Ardran
+        [61336533] = { icon = "craftingorders", npc = 219048 }, -- Clerk Pordaz
 
         -- Mythic Aspirations
-        [52084224] = { icon = "vendor", npc = 219226 }, -- Vaskarn
-        [52064196] = { icon = "reforge", npc = 219225 }, -- Cuzolth
-        [53014236] = { icon = "vendor", npc = 219067 }, -- Nathden
+        [52684995] = { icon = "vendor", npc = 219226 }, -- Vaskarn
+        [52664968] = { icon = "reforge", npc = 219225 }, -- Cuzolth
+        -- [53014236] = { icon = "vendor", npc = 219067 }, -- Nathden -- (RE)MOVED
+
+        -- Stoneward's Rise
+        [67212200] = { icon = "mail", label = L["Mailbox"] },
 
         -- Stoneshaper's Atrium
-        [58153246] = { icon = "mail", label = L["Mailbox"] },
+        [59523898] = { icon = "mail", label = L["Mailbox"] },
 
         -- Keepers Terrace
-        [48482513] = { icon = "mail", label = L["Mailbox"] },
+        [48623071] = { icon = "mail", label = L["Mailbox"] },
 
         -- Founding Hall
-        [38162723] = { icon = "portal", label = L["Portal to Orgrimmar"], note = Durotar, faction = "Horde" }, -- , quest=?, level=?
-        [41182266] = { icon = "portal", label = L["Portal to Stormwind"], note = ElwynnForest, faction = "Alliance" }, -- , quest=?, level=?
-        [38872442] = { icon = "vendor", npc = 223725 }, -- Randulls Scredpyr / BUGGED
-        [38972424] = { icon = "vendor", npc = 223727 }, -- Emissary of the Depths / BUGGED
-        [39132399] = { icon = "vendor", npc = 223728 }, -- Auditor Balwurz
-        [39252379] = { icon = "vendor", npc = 223726 }, -- Foreman Azap
-        [40532893] = { icon = "portaltrainer", npc = 222631, class = "MAGE" }, -- Archmage Celindra
+        [37003305] = { icon = "portal", label = L["Portal to Orgrimmar"], note = Durotar, faction = "Horde" },
+        [40392793] = { icon = "portal", label = L["Portal to Stormwind"], note = ElwynnForest, faction = "Alliance" },
+        [37782986] = { icon = "vendor", npc = 223725 }, -- Randulls Scredpyr / BUGGED
+        [37892968] = { icon = "vendor", npc = 223727 }, -- Emissary of the Depths / BUGGED
+        [38072940] = { icon = "vendor", npc = 223728 }, -- Auditor Balwurz
+        [38212918] = { icon = "vendor", npc = 223726 }, -- Foreman Azap
+        [39673497] = { icon = "portaltrainer", npc = 222631, class = "MAGE" }, -- Archmage Celindra
 
         -- Alchemy
-        [47307046] = { icon = "trainer", npc = 219092, profession = 171, picon = "alchemy" }, -- Tarig
-        [47327082] = { icon = "vendor", npc = 219091, profession = 171, picon = "alchemy" }, -- Grink
+        [47028189] = { icon = "trainer", npc = 219092, profession = 171, picon = "alchemy" }, -- Tarig
+        [47318220] = { icon = "vendor", npc = 219091, profession = 171, picon = "alchemy" }, -- Grink
 
         -- Enchanting
-        [52917131] = { icon = "trainer", npc = 219085, profession = 333, picon = "enchanting" }, -- Nagad
-        [52367168] = { icon = "vendor", npc = 219086, profession = 333, picon = "enchanting" }, -- Llande
+        [53618274] = { icon = "trainer", npc = 219085, profession = 333, picon = "enchanting" }, -- Nagad
+        [53008318] = { icon = "vendor", npc = 219086, profession = 333, picon = "enchanting" }, -- Llande
 
         -- Fishing, profession=356
-        [50612680] = { icon = "vendor", npc = 219105, picon = "fishing" }, -- Hinodin
-        [50482686] = { icon = "trainer", npc = 219106, picon = "fishing" }, -- Drokar
+        [51023259] = { icon = "vendor", npc = 219105, picon = "fishing" }, -- Hinodin
+        [50893262] = { icon = "trainer", npc = 219106, picon = "fishing" }, -- Drokar
 
         -- Herbalism
-        [44776929] = { icon = "trainer", npc = 219101, profession = 182, picon = "herbalism" }, -- Akdan
-        [44716974] = { icon = "vendor", npc = 219093, profession = 182, picon = "herbalism" }, -- Vorig
+        [44438048] = { icon = "trainer", npc = 219101, profession = 182, picon = "herbalism" }, -- Akdan
+        [44348099] = { icon = "vendor", npc = 219093, profession = 182, picon = "herbalism" }, -- Vorig
 
         -- Inscription
-        [48707117] = { icon = "trainer", npc = 219090, profession = 773, picon = "inscription" }, -- Brrigan
-        [48767087] = { icon = "vendor", npc = 219089, profession = 773, picon = "inscription" }, -- Kardu
+        [48978232] = { icon = "trainer", npc = 219090, profession = 773, picon = "inscription" }, -- Brrigan
+        [48988208] = { icon = "vendor", npc = 219089, profession = 773, picon = "inscription" }, -- Kardu
+        [48767087] = { icon = "vendor", npc = 219249, profession = 773, picon = "inscription" }, -- Dogan
 
         -- Juwe
-        [49497116] = { icon = "trainer", npc = 219087, profession = 755, picon = "jewelcrafting" }, -- Makir
-        [49547154] = { icon = "vendor", npc = 219088, profession = 755, picon = "jewelcrafting" }, -- Uthaga
+        [49758219] = { icon = "trainer", npc = 219087, profession = 755, picon = "jewelcrafting" }, -- Makir
+        [49828300] = { icon = "vendor", npc = 219088, profession = 755, picon = "jewelcrafting" }, -- Uthaga
 
         -- Leatherworking
-        [54455923] = { icon = "vendor", npc = 219081, profession = 165, picon = "leatherworking" }, -- Krinn
-        [54315844] = { icon = "trainer", npc = 219080, profession = 165, picon = "leatherworking" }, -- Marbb
+        [55346913] = { icon = "vendor", npc = 219081, profession = 165, picon = "leatherworking" }, -- Krinn
+        [55216824] = { icon = "trainer", npc = 219080, profession = 165, picon = "leatherworking" }, -- Marbb
 
         -- Skinning
-        [54165696] = { icon = "vendor", npc = 219082, profession = 393, picon = "skinning" }, -- Kradan
-        [54275739] = { icon = "trainer", npc = 219083, profession = 393, picon = "skinning" }, -- Ginnad
-        [54285664] = { icon = "trainer", npc = 226785, profession = 393, picon = "skinning" }, -- Kondal Huntsworn / BUGGED
+        [55026660] = { icon = "vendor", npc = 219082, profession = 393, picon = "skinning" }, -- Kradan
+        [55136704] = { icon = "trainer", npc = 219083, profession = 393, picon = "skinning" }, -- Ginnad
+        [55176624] = { icon = "trainer", npc = 226785, profession = 393, picon = "skinning" }, -- Kondal Huntsworn / BUGGED
 
         -- Tailor
-        [54776392] = { icon = "vendor", npc = 219100, profession = 197, picon = "tailoring" }, -- Berred
-        [54696370] = { icon = "trainer", npc = 219094, profession = 197, picon = "tailoring" }, -- Kotag
+        [55717443] = { icon = "vendor", npc = 219100, profession = 197, picon = "tailoring" }, -- Berred
+        [55637416] = { icon = "trainer", npc = 219094, profession = 197, picon = "tailoring" }, -- Kotag
 
         -- Blacksmith
-        [49176361] = { icon = "trainer", npc = 223644, profession = 164, picon = "blacksmithing" }, -- Darean
-        [48686251] = { icon = "vendor", npc = 223643, profession = 164, picon = "blacksmithing" }, -- Borgos
+        [49417404] = { icon = "trainer", npc = 223644, profession = 164, picon = "blacksmithing" }, -- Darean
+        [48847283] = { icon = "vendor", npc = 223643, profession = 164, picon = "blacksmithing" }, -- Borgos
 
         -- Engineer
-        [49075612] = { icon = "trainer", npc = 219099, profession = 202, picon = "engineering" }, -- Machinist Arhdas
-        [49305561] = { icon = "vendor", npc = 219098, profession = 202, picon = "engineering" }, -- Supply Foreman Drezmol
+        [49476542] = { icon = "trainer", npc = 219099, profession = 202, picon = "engineering" }, -- Thermalseer Arhdas
+        [49546506] = { icon = "vendor", npc = 219098, profession = 202, picon = "engineering" }, -- Supply Foreman Drezmol
 
         -- Mining
-        [52625254] = { icon = "trainer", npc = 219097, profession = 186, picon = "mining" } -- Tarib
+        [53296158] = { icon = "trainer", npc = 219097, profession = 186, picon = "mining" }, -- Tarib
+        [53876138] = { icon = "anvil", npc = 219096, profession = 186, picon = "mining" }, -- Gareb
+
+        -- Cooking, profession=185
+        [43785405] = { icon = "trainer", npc = 219104, picon = "cooking" }, -- Athodas
+        [43105384] = { icon = "vendor", npc = 219103, picon = "cooking" } -- Kronzon
     }
 
 } -- DB ENDE

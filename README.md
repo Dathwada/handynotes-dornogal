@@ -7,6 +7,7 @@
     * ![](https://i.imgur.com/WohtUwP.png) Bankers
     * ![](https://i.imgur.com/3ltU3Y0.png) Catalyst
     * ![](https://i.imgur.com/8Naqwbj.png) Guild Vault
+    * ![](https://i.imgur.com/wAga1cd.png) Innkeeper
     * ![](https://i.imgur.com/iGH7Fqt.png) Mailboxes
     * ![](https://i.imgur.com/NIUq9ta.png) Portal*
     * ![](https://i.imgur.com/FCGho5k.png) Armor Enhancer
