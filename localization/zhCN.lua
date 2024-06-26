@@ -9,7 +9,7 @@ if L then
 -----------------------------------------------CONFIG-----------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
-L["config_plugin_name"] = "Dornogal"
+L["config_plugin_name"] = "多恩诺嘉尔"
 -- L["config_plugin_desc"] = ""
 
 L["config_tab_general"] = "通用"
@@ -129,7 +129,7 @@ L["dev_config_show_prints_desc"] = "在聊天窗口中显示标记()的信息"
 
 --==========================================CONTEXT_MENU==========================================--
 
-L["handler_context_menu_addon_name"] = "HandyNotes:瓦德拉肯"
+L["handler_context_menu_addon_name"] = "HandyNotes：多恩诺嘉尔"
 L["handler_context_menu_add_tomtom"] = "添加到 TomTom"
 L["handler_context_menu_add_map_pin"] = "设置地图航点"
 L["handler_context_menu_hide_node"] = "隐藏这个图标"
@@ -151,4 +151,5 @@ L["Portal to Orgrimmar"] = "通往奥格瑞玛"
 L["Portal to Stormwind"] = "通往暴风城"
 L["Portal to The Timeways"] = "通往时间流的传送门"
 L["Rostrum of Transformation"] = "幻形讲坛"
+L["The Catalyst"] = "化生台"
 end
