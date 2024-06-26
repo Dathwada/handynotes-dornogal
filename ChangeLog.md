@@ -1,5 +1,11 @@
 ## Revision History:
 
+#### v0.2 (June 26, 2024)
+-------------------------------
+* Added inkeeper and other missing NPCs
+* Updated coordinates for the nodes after Blizzard added the artwork for the map
+* Updated zhCN [[PR#1](https://github.com/Dathwada/handynotes-dornogal/pull/1)]
+
 #### v0.1 (June 07, 2024)
 -------------------------------
 * Added auctioneers, bankers, barber, crafting orders, guild vault, mailboxes, portals, rostrum of transformation, stable master, profession trainers, transmogrifier, vendors, void storage
