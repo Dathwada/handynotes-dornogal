@@ -1,5 +1,9 @@
 ## Revision History:
 
+#### v0.3 (July 10, 2024)
+-------------------------------
+* Updated all coordinates after Blizzard changed the coordinate scaling again
+
 #### v0.2 (June 26, 2024)
 -------------------------------
 * Added inkeeper and other missing NPCs
