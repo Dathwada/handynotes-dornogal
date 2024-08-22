@@ -1,5 +1,12 @@
 ## Revision History:
 
+#### v1 (August 22, 2024)
+-------------------------------
+* Added and updated nodes
+* Removed Teleport platform and flightmaster from config
+* Fixed profession icon for anvil nodes
+* Bump .toc to 110002
+
 #### v0.3 (July 10, 2024)
 -------------------------------
 * Updated all coordinates after Blizzard changed the coordinate scaling again
