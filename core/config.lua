@@ -164,9 +164,6 @@ gcmp.show_portal["disabled"] = function() return C_AddOns.IsAddOnLoaded("HandyNo
 
 gcmp.show_portaltrainer["hidden"] = function() return not (select(2, UnitClass("player")) == "MAGE") end
 
-gcmp.show_tpplatform["name"] = function() return C_AddOns.IsAddOnLoaded("HandyNotes_TravelGuide") and L["config_tpplatform"].." |cFFFF0000(*)|r" or L["config_tpplatform"] end
-gcmp.show_tpplatform["disabled"] = function() return C_AddOns.IsAddOnLoaded("HandyNotes_TravelGuide") end
-
 -- create the scale / alpha config menu
 for i, icongroup in ipairs(ns.constants.icongroup) do
 
@@ -207,7 +204,3 @@ sacmp.icon_alpha_portal["disabled"] = function() return C_AddOns.IsAddOnLoaded("
 sacmp.name_portaltrainer["hidden"] = function() return not (select(2, UnitClass("player")) == "MAGE") end
 sacmp.icon_scale_portaltrainer["hidden"] = function() return not (select(2, UnitClass("player")) == "MAGE") end
 sacmp.icon_alpha_portaltrainer["hidden"] = function() return not (select(2, UnitClass("player")) == "MAGE") end
-
-sacmp.name_tpplatform["name"] = function() return C_AddOns.IsAddOnLoaded("HandyNotes_TravelGuide") and L["config_tpplatform"].." |cFFFF0000(*)|r" or L["config_tpplatform"] end
-sacmp.icon_scale_tpplatform["disabled"] = function() return C_AddOns.IsAddOnLoaded("HandyNotes_TravelGuide") end
-sacmp.icon_alpha_tpplatform["disabled"] = function() return C_AddOns.IsAddOnLoaded("HandyNotes_TravelGuide") end
