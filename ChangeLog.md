@@ -1,5 +1,9 @@
 ## Revision History:
 
+#### v7 (May 01, 2025)
+-------------------------------
+* Bump .toc to 110105
+
 #### v6 (March 23, 2025)
 -------------------------------
 * Added the new [Enchanted Crests NPC Syenite](https://www.wowhead.com/news/enchanted-crests-have-moved-to-a-new-vendor-in-dornogal-375808)
